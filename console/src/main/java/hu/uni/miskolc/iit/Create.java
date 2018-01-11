@@ -23,11 +23,14 @@ public class Create {
         Student Gabor = new Student(1,"Gabor",4);
         Student Peter= new Student(2,"Peter Johnson",12);
         Student Salma = new Student(3,"Salma",5);
+        Student Zico = new Student (10,"Zico",6);
         List<Student> studentList = new ArrayList<>();
 
         studentList.add(Gabor);
         studentList.add(Salma);
         studentList.add(Peter);
+        studentList.add(Zico);
+
 
 
 
