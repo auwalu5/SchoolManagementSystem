@@ -24,6 +24,7 @@ public class Create {
         Student Peter= new Student(2,"Peter Johnson",12);
         Student Salma = new Student(3,"Salma",5);
         Student Zico = new Student (10,"Zico",6);
+        Student Linda = new Student (5,"Linda",20);
         List<Student> studentList = new ArrayList<>();
 
         studentList.add(Gabor);
@@ -62,6 +63,8 @@ public class Create {
         Jerry.receiveSalary(Jerry.getSalary());
 
         System.out.println(Jerry);
+
+        System.out.println(Salma);
 
 
     }
