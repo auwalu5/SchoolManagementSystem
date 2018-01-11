@@ -11,6 +11,8 @@ public class Create {
         Teacher Mohammed = new Teacher(1,"Mohammed",500);
         Teacher Jerry = new Teacher(2,"Jerry",700);
         Teacher Victor = new Teacher(3,"Victor",600);
+        Teacher Salim = new Teacher(5,"Salim",800);
+
 
         List<Teacher> teacherList = new ArrayList<>();
         teacherList.add(Mohammed);
